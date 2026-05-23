@@ -70,10 +70,6 @@ A full-stack web application for EV charging station booking with user, station 
    ```
    npm run dev
    ```
-### Access
-- Frontend: http://localhost:5173
-- Backend: http://localhost:5000
-
 ## API Endpoints
 
 - POST /api/auth/register - Register user
