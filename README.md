@@ -39,7 +39,6 @@ A full-stack web application for EV charging station booking with user, station 
    ```
    npm install
    ```
-
 3. Set up databases:
    - Start MongoDB
    - Start PostgreSQL and create database 'evcharging'
@@ -47,46 +46,33 @@ A full-stack web application for EV charging station booking with user, station 
      ```
      psql -d evcharging -f database/init.sql
      ```
-
 4. Configure environment variables in `.env`:
    - Update MONGO_URI, PG_*, EMAIL_*, JWT_SECRET, GOOGLE_MAPS_API_KEY
-
 5. Seed data:
    ```
    node database/seed.js
    ```
-
 6. Start server:
    ```
    npm run dev
    ```
-
 ### Frontend Setup
 
 1. Navigate to frontend directory:
    ```
    cd frontend
    ```
-
 2. Install dependencies:
    ```
    npm install
    ```
-
 3. Start development server:
    ```
    npm run dev
    ```
-
 ### Access
-
 - Frontend: http://localhost:5173
 - Backend: http://localhost:5000
-
-### Admin Credentials
-
-- Email: admin@example.com
-- Password: admin123
 
 ## API Endpoints
 
